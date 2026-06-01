@@ -10,8 +10,6 @@ My projects usually focus on things I actually want to run: clear setup, Docker-
 | --- | --- | --- |
 | [Shipyard](https://github.com/tobayashi-san/Shipyard) | Web dashboard for managing Linux servers, SSH access, monitoring, Docker workloads, updates, Ansible automation, and plugins. | JavaScript, React, Node.js, SQLite, Docker |
 | [EasyMount](https://github.com/tobayashi-san/EasyMount) | Linux desktop app for creating persistent SMB and NFS network mounts without editing `fstab` manually. | Python, GTK 4, systemd, Polkit |
-| [maintenance-planner](https://github.com/tobayashi-san/maintenance-planner) | Maintenance calendar for recurring tasks, reminders, team workflows, PWA usage, and ICS exports. | TypeScript, React, Node.js, Docker |
-| [WDCA](https://github.com/tobayashi-san/WDCA) | PowerShell utility for Windows deployment, configuration, troubleshooting, and imaging workflows. | PowerShell, WPF, JSON |
 
 ## What I care about
 
