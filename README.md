@@ -1,36 +1,37 @@
-# Tobayashi-san
+# Hi, I'm tobayashi-san
 
-I build practical tools for self-hosting, Linux desktops, server automation, and internal operations.
+I build self-hosted tools and Linux desktop apps: software I run myself, with
+simple deployment and documentation you can follow without guessing.
 
-My projects usually focus on things I actually want to run: clear setup, Docker-based deployment, useful admin workflows, and documentation that makes the software usable without guessing.
-
-## Featured projects
+## Projects
 
 | Project | What it does | Stack |
 | --- | --- | --- |
-| [Shipyard](https://github.com/tobayashi-san/Shipyard) | Web dashboard for managing Linux servers, SSH access, monitoring, Docker workloads, updates, Ansible automation, and plugins. | JavaScript, React, Node.js, SQLite, Docker |
-| [EasyMount](https://github.com/tobayashi-san/EasyMount) | Linux desktop app for creating persistent SMB and NFS network mounts without editing `fstab` manually. | Python, GTK 4, systemd, Polkit |
+| [**Fleet**](https://github.com/tobayashi-san/Fleet) | Self-hosted web UI for managing Linux servers over SSH: host health, updates, Docker, Ansible, Proxmox and OpenTofu in one place. [Website](https://tobayashi-san.github.io/Fleet/) | React, TypeScript, Node.js, SQLite, Docker |
+| [**EasyMount**](https://github.com/tobayashi-san/EasyMount) | GTK 4 app for persistent SMB and NFS network mounts on Linux, without editing `fstab` by hand. [Website](https://tobayashi-san.github.io/EasyMount/) | Python, GTK 4, systemd, Polkit |
+| [**Stream Deck plugin checks**](https://github.com/tobayashi-san/streamdeck-linux-plugin-checks) | Automated "works on Linux" test results for Elgato Stream Deck Marketplace plugins, run in a sandbox. | Linux, bubblewrap |
 
-## What I care about
+## Currently working on
 
-- Self-hosted software that is simple to deploy and maintain
-- Admin tools with clear UI, sensible defaults, and strong documentation
-- Linux desktop integration, system services, and local-network workflows
-- Practical automation with Docker, Ansible, systemd, PowerShell, and GitHub Actions
+- Bringing Elgato Stream Deck devices and Marketplace plugins to Linux
+- Keeping Fleet stable, secure and easy to upgrade
 
-## Tools and technologies
+## Tools
 
-![JavaScript](https://img.shields.io/badge/JavaScript-111827?style=flat&logo=javascript)
 ![TypeScript](https://img.shields.io/badge/TypeScript-111827?style=flat&logo=typescript)
 ![React](https://img.shields.io/badge/React-111827?style=flat&logo=react)
 ![Node.js](https://img.shields.io/badge/Node.js-111827?style=flat&logo=node.js)
 ![Python](https://img.shields.io/badge/Python-111827?style=flat&logo=python)
+![Rust](https://img.shields.io/badge/Rust-111827?style=flat&logo=rust)
 ![Docker](https://img.shields.io/badge/Docker-111827?style=flat&logo=docker)
+![Ansible](https://img.shields.io/badge/Ansible-111827?style=flat&logo=ansible)
 ![Linux](https://img.shields.io/badge/Linux-111827?style=flat&logo=linux)
 ![PowerShell](https://img.shields.io/badge/PowerShell-111827?style=flat&logo=powershell)
 
-## Current focus
+<details>
+<summary>Archived projects</summary>
 
-- Improving [Shipyard](https://github.com/tobayashi-san/Shipyard) as a polished self-hosted server management platform
-- Packaging [EasyMount](https://github.com/tobayashi-san/EasyMount) for easier Linux desktop testing
-- Keeping project READMEs, screenshots, release notes, and setup paths beginner-friendly
+- [WDCA](https://github.com/tobayashi-san/WDCA): PowerShell/WPF tool for Windows deployment and configuration
+- [maintenance-planner](https://github.com/tobayashi-san/maintenance-planner): maintenance calendar with recurring schedules, reminders and ICS export
+
+</details>
